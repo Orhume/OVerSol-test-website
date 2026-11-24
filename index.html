@@ -43,36 +43,36 @@
 <main id="main">
 
   <!-- ============ HERO ============ -->
-  <section class="hero">
-    <div class="hero-bg" aria-hidden="true">
-      <picture>
-        <source media="(max-width: 860px)" srcset="assets/img/wave-mobile.webp" type="image/webp" />
-        <source media="(max-width: 860px)" srcset="assets/img/wave-mobile.jpg" type="image/jpeg" />
-        <img src="assets/img/wave-hero.webp" alt="" />
-      </picture>
-    </div>
+  
+<div class="hero-bg" aria-hidden="true">
 
-    <div class="shell hero-inner">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="eyebrow-dot"></span>Engineering Real Solutions</p>
-        <h1 class="hero-title">
-          Simplifying Life.<br />
-          Engineering <em>Possibilities.</em>
-        </h1>
-        <p class="hero-text">
-          We are an engineering-driven technology and innovation company. We combine forward
-          deployed engineering, systems analysis and software development to build software,
-          intelligent systems and automation that make everyday life and work simpler.
-        </p>
-        <div class="hero-actions">
-          <a href="#solutions" class="btn btn-gold">Explore Our Solutions
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
-          </a>
-          <a href="#labs" class="btn btn-ghost">Discover O&rsquo;VerSol Labs</a>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- Desktop video -->
+  <video
+    class="hero-video hero-video-desktop"
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="metadata"
+    poster="assets/img/wave-hero.webp"
+  >
+    <source src="assets/img/wave-hero.mp4" type="video/mp4" />
+  </video>
+
+  <!-- Mobile video -->
+  <video
+    class="hero-video hero-video-mobile"
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="metadata"
+    poster="assets/img/wave-mobile.webp"
+  >
+    <source src="assets/img/wave-mobile.mp4" type="video/mp4" />
+  </video>
+
+</div>
 
   <!-- ============ STATS ============ -->
   <section class="stats" aria-label="O'VerSol at a glance">
