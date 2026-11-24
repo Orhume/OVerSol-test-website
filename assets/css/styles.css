@@ -161,7 +161,6 @@ svg { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1
   overflow: hidden;
   background: var(--ink);
 }
-.hero-bg { position: absolute; inset: 0; z-index: 0; }
 
 .hero-bg {
   position: absolute;
